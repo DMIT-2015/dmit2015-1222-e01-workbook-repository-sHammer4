@@ -5,18 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b158b0ff-3445-40db-a17c-338fe3713d5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dmit2015/model/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dmit2015/model/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dmit2015/model/CircleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dmit2015/model/ProgrammingLanguageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -38,19 +45,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Circle">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="dmit2015.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ProgrammingLanguageTest.divideOperator_DivisionByZero_ThrowsArithmeticException">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -118,8 +136,76 @@
         </option>
       </method>
     </configuration>
+    <configuration name="ProgrammingLanguageTest.divideOperator_DivisionByZero_ThrowsArithmeticException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webapp-dmit2015-azure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dmit2015.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dmit2015.model" />
+      <option name="MAIN_CLASS_NAME" value="dmit2015.model.ProgrammingLanguageTest" />
+      <option name="METHOD_NAME" value="divideOperator_DivisionByZero_ThrowsArithmeticException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgrammingLanguageTest.divideOperator_IntegerDivision_ReturnsCorrectResults" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webapp-dmit2015-azure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dmit2015.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dmit2015.model" />
+      <option name="MAIN_CLASS_NAME" value="dmit2015.model.ProgrammingLanguageTest" />
+      <option name="METHOD_NAME" value="divideOperator_IntegerDivision_ReturnsCorrectResults" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgrammingLanguageTest.equalOperator_StringCompare_ReturnsCorrectResults" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webapp-dmit2015-azure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dmit2015.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dmit2015.model" />
+      <option name="MAIN_CLASS_NAME" value="dmit2015.model.ProgrammingLanguageTest" />
+      <option name="METHOD_NAME" value="equalOperator_StringCompare_ReturnsCorrectResults" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgrammingLanguageTest.powerOperator_ReturnsCorrectResults" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webapp-dmit2015-azure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dmit2015.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dmit2015.model" />
+      <option name="MAIN_CLASS_NAME" value="dmit2015.model.ProgrammingLanguageTest" />
+      <option name="METHOD_NAME" value="powerOperator_ReturnsCorrectResults" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProgrammingLanguageTest.divideOperator_DivisionByZero_ThrowsArithmeticException" />
+        <item itemvalue="JUnit.ProgrammingLanguageTest.divideOperator_IntegerDivision_ReturnsCorrectResults" />
+        <item itemvalue="JUnit.ProgrammingLanguageTest.powerOperator_ReturnsCorrectResults" />
+        <item itemvalue="JUnit.ProgrammingLanguageTest.equalOperator_StringCompare_ReturnsCorrectResults" />
         <item itemvalue="Application.Circle" />
       </list>
     </recent_temporary>
@@ -133,7 +219,8 @@
       <option name="presentableId" value="Default" />
       <updated>1673664613452</updated>
       <workItem from="1673664615054" duration="350000" />
-      <workItem from="1673665004739" duration="3108000" />
+      <workItem from="1673665004739" duration="3267000" />
+      <workItem from="1673921930359" duration="5390000" />
     </task>
     <task id="LOCAL-00001" summary="Created File">
       <created>1673664655520</created>
@@ -149,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673664740503</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Created circle class and main to test values">
+      <created>1673668147788</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673668147788</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +251,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created File" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created File" />
+    <MESSAGE value="Created circle class and main to test values" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created circle class and main to test values" />
   </component>
 </project>
