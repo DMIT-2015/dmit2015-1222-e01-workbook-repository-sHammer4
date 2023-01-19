@@ -44,7 +44,7 @@ public class Rectangle {
         System.out.printf("The dimensions are l:%s and w:%s", this.length, this.width);
     }
 
-    public static void Main(String[] args) {
+    public static void main(String[] args) {
         Rectangle rectangle1 = new Rectangle();
         rectangle1.Print();
     }

@@ -2,6 +2,7 @@ package dmit2015.model;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
+import static org.junit.jupiter.api.Assertions.*; //for assertEquals()
 
 class CircleTest {
     @ParameterizedTest(name = "radius = {0}, expected area = {1} ")
@@ -17,6 +18,6 @@ class CircleTest {
 // Act
         circle1.setRadius(radius);
 // Assert
-        assertEquals(expectedArea, circle1.area(), 0.005);
+        assertEquals(expectedArea, circle1.Area(), 0.005);
     }
 }
