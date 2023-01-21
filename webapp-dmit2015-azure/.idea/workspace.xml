@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="webapp-dmit2015-azure:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b158b0ff-3445-40db-a17c-338fe3713d5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dmit2015/model/AllUnitTests.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/circle.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dmit2015/model/RectangleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/rectangle.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dmit2015/model/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dmit2015/model/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dmit2015/model/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dmit2015/model/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dmit2015/model/CircleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dmit2015/model/CircleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,11 +35,24 @@
         <option value="Class" />
         <option value="JUnit5 Test Class" />
         <option value="Jsp File" />
+        <option value="DMIT2015 Jakarta Server Pages using EL Tags" />
+        <option value="DMIT2015 Jakarta Server Pages Sample Form" />
+        <option value="DMIT2015 Jakarta Server Pagesfor Jakarta EE 10" />
+        <option value="DMIT2015 Jakarta Server Pagesfor Jakarta EE 9" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GroovyConsoleState">
+    <option name="list">
+      <list>
+        <Entry>
+          <option name="url" value="file://$APPLICATION_CONFIG_DIR$/consoles/groovy/groovy_console.groovy" />
+        </Entry>
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -45,24 +66,24 @@
   </component>
   <component name="ProjectId" id="2KIaaGvWFK8t8pbD2jq8k9R45nP" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="flattenPackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "fileTemplates",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -71,7 +92,7 @@
       <recent name="dmit2015.model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RectangleTest.Diagonal">
+  <component name="RunManager" selected="JBoss/WildFly Server.JBoss/WildFly 27.0.1.Final">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -132,6 +153,21 @@
         <option name="CREDENTIAL_ALIAS" />
       </server-settings>
       <predefined_log_file enabled="true" id="JBoss" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
@@ -226,6 +262,8 @@
       <workItem from="1673921930359" duration="5415000" />
       <workItem from="1674094317127" duration="1450000" />
       <workItem from="1674096207362" duration="3079000" />
+      <workItem from="1674099639759" duration="516000" />
+      <workItem from="1674267607021" duration="3925000" />
     </task>
     <task id="LOCAL-00001" summary="Created File">
       <created>1673664655520</created>
@@ -255,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673927398171</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Created rectangle test cases&#10;Added jsp webpage and backend code">
+      <created>1674099944007</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674099944007</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +309,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created File" />
     <MESSAGE value="Created circle class and main to test values" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created circle class and main to test values" />
+    <MESSAGE value="Created rectangle test cases&#10;Added jsp webpage and backend code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created rectangle test cases&#10;Added jsp webpage and backend code" />
   </component>
 </project>
